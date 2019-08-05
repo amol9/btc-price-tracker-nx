@@ -3,9 +3,9 @@ A sample app created to learn next.js.
 
 Based on youtube tutorial by Traversy Media (link)[https://www.youtube.com/watch?v=IkOVe40Sy0U].
 
-##### Quick Tutorial Steps
+#### Quick Tutorial Steps
 
-###### Part 1: Setting up the website skeleton
+##### Part 1: Setting up the website skeleton
 
 1. >npm init -y
 
@@ -37,7 +37,7 @@ Based on youtube tutorial by Traversy Media (link)[https://www.youtube.com/watch
 
 14. Also, used the "Link" component fron next.js. I don't see a big deal. It's just like anchor tag in html. May be there's more to it. The next.js docs have a lot of items on it.
 
-###### Part 2: Adding the price tracker
+##### Part 2: Adding the price tracker
 
 1. Add a static method named "getInitialProps" to Index component. This method is an addon by next.js and is pretty cool. The only trick: it only works for components in pages dir. I banged by head in a lot of frustration as I initially added it to Prices component in components dir.
 
